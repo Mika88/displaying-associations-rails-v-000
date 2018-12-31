@@ -1,3 +1,3 @@
 class Post < ActiveRecord::Base
-  belong_to :category
+  belongs_to :category
 end
